@@ -11,14 +11,10 @@
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string>com.belkadan.ibplugins.dbbackgroundview</string>
-				<string>com.brandonwalkin.BWToolkit</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>823</string>
-				<string>1.1</string>
-				<string>1.2.2</string>
 			</object>
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
@@ -27,9 +23,7 @@
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<string>com.belkadan.ibplugins.dbbackgroundview</string>
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string>com.brandonwalkin.BWToolkit</string>
 		</object>
 		<object class="NSMutableDictionary" key="IBDocument.Metadata">
 			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
@@ -89,7 +83,7 @@
 									<int key="NSvFlags">274</int>
 									<object class="NSMutableArray" key="NSSubviews">
 										<bool key="EncodedWithXMLCoder">YES</bool>
-										<object class="DBBackgroundView" id="752920532">
+										<object class="NSView" id="752920532">
 											<reference key="NSNextResponder" ref="239985469"/>
 											<int key="NSvFlags">274</int>
 											<object class="NSMutableArray" key="NSSubviews">
@@ -865,14 +859,14 @@ AADCEQ4AAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDEwAA</
 									<reference key="NSHeaderClipView" ref="347141037"/>
 									<bytes key="NSScrollAmts">QSAAAEEgAABBmAAAQZgAAA</bytes>
 								</object>
-								<object class="BWHyperlinkButton" id="767043772">
+								<object class="NSButton" id="767043772">
 									<reference key="NSNextResponder" ref="673633224"/>
 									<int key="NSvFlags">292</int>
 									<string key="NSFrame">{{75, 14}, {159, 20}}</string>
 									<reference key="NSSuperview" ref="673633224"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
-									<object class="BWHyperlinkButtonCell" key="NSCell" id="832435539">
+									<object class="NSButtonCell" key="NSCell" id="832435539">
 										<int key="NSCellFlags">67239424</int>
 										<int key="NSCellFlags2">131072</int>
 										<string key="NSContents">See more destination URLs…</string>
@@ -968,7 +962,7 @@ AADCEQ4AAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDEwAA</
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<string key="NSClassName">NSView</string>
 						</object>
-						<object class="DBBackgroundView" id="61782544">
+						<object class="NSView" id="61782544">
 							<reference key="NSNextResponder" ref="734542984"/>
 							<int key="NSvFlags">270</int>
 							<object class="NSMutableArray" key="NSSubviews">
@@ -2401,19 +2395,19 @@ AADCEQ4AAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDEwAA</
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">BWHyperlinkButton</string>
+					<string key="className">NSButton</string>
 					<string key="superclassName">NSButton</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">BWHyperlinkButton/BWHyperlinkButton.h</string>
+						<string key="minorKey">NSButton/NSButton.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">BWHyperlinkButtonCell</string>
+					<string key="className">NSButtonCell</string>
 					<string key="superclassName">NSButtonCell</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">BWHyperlinkButton/BWHyperlinkButtonCell.h</string>
+						<string key="minorKey">NSButton/NSButtonCell.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -2814,7 +2808,7 @@ AADCEQ4AAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDEwAA</
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>NSView</string>
-							<string>DBBackgroundView</string>
+							<string>NSView</string>
 							<string>NSImageView</string>
 						</object>
 					</object>
@@ -2834,7 +2828,7 @@ AADCEQ4AAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDEwAA</
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">updateBar</string>
-								<string key="candidateClassName">DBBackgroundView</string>
+								<string key="candidateClassName">NSView</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">updateIconView</string>
@@ -2874,18 +2868,18 @@ AADCEQ4AAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDEwAA</
 			<object class="NSMutableArray" key="referencedPartialClassDescriptionsV3.2+">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">DBBackgroundView</string>
+					<string key="className">NSView</string>
 					<string key="superclassName">NSView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="230391877">
 						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">DBBackgroundView.framework/Headers/DBBackgroundView.h</string>
+						<string key="minorKey">NSView.framework/Headers/NSView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">DBBackgroundView</string>
+					<string key="className">NSView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">DBBackgroundView.framework/Headers/DBBackgroundViewCodingAdditions.h</string>
+						<string key="minorKey">NSView.framework/Headers/NSViewCodingAdditions.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
