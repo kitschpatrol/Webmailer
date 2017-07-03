@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C63D31912D2F0AA009196DF"
-               BuildableName = "Tests.octest"
+               BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
                ReferencedContainer = "container:Webmailer.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C63D31912D2F0AA009196DF"
-            BuildableName = "Tests.octest"
+            BuildableName = "Tests.xctest"
             BlueprintName = "Tests"
             ReferencedContainer = "container:Webmailer.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C63D31912D2F0AA009196DF"
-            BuildableName = "Tests.octest"
+            BuildableName = "Tests.xctest"
             BlueprintName = "Tests"
             ReferencedContainer = "container:Webmailer.xcodeproj">
          </BuildableReference>
