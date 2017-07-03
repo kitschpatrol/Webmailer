@@ -23,6 +23,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		25153DB31F0AAD1A00DDE5B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25153DB21F0AAD1A00DDE5B3 /* XCTest.framework */; };
 		8C083D4912ECDBC600A285FA /* TestPlaceholderExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C083D4812ECDBC600A285FA /* TestPlaceholderExpansion.m */; };
 		8C0B73471564AB5A00FA1133 /* Webmailer.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 8C0B73461564AB5A00FA1133 /* Webmailer.sdef */; };
 		8C155A6A151AEA98002068BF /* DefaultsDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C155A69151AEA97002068BF /* DefaultsDomain.m */; };
@@ -41,7 +42,6 @@
 		8C5E05730B37A96E00EC858C /* active.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F00110B323DDF00EF8A76 /* active.png */; };
 		8C5E05770B37A98500EC858C /* ImageForStateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C975AF60B30F03B00B481FB /* ImageForStateTransformer.m */; };
 		8C63D2E612D2E54C009196DF /* NSString+PrototypeExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C63D2E512D2E54C009196DF /* NSString+PrototypeExpansion.m */; };
-		8C63D32D12D2F1EA009196DF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C63D32912D2F1E2009196DF /* SenTestingKit.framework */; };
 		8C63D34612D2F222009196DF /* NSString+PrototypeExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C63D2E512D2E54C009196DF /* NSString+PrototypeExpansion.m */; };
 		8C63D34D12D2F312009196DF /* TestFieldParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C63D32712D2F137009196DF /* TestFieldParsing.m */; };
 		8C6F00470B323F0000EF8A76 /* NSDictionary+NSArray+PlistMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F00460B323F0000EF8A76 /* NSDictionary+NSArray+PlistMutableCopy.m */; };
@@ -58,7 +58,6 @@
 		8C8BDD3B1566FB2600F28BE9 /* WebmailerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BDD3A1566FB2600F28BE9 /* WebmailerConfiguration.m */; };
 		8C8BDDE91567105700F28BE9 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAE43C2104B78EC005F3191 /* ScriptingBridge.framework */; };
 		8C8C5C20110A7CA800D57BBE /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8C5C1F110A7CA800D57BBE /* download.png */; };
-		8C9E9903110BCE4B00BD7153 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E9902110BCE4A00BD7153 /* dsa_pub.pem */; };
 		8CA479AB156C59B7007FF2BF /* URLHandlerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA479AA156C59B7007FF2BF /* URLHandlerController.m */; };
 		8CA47A6A156C8AC8007FF2BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA47A68156C8ABB007FF2BF /* main.m */; };
 		8CA47AE3156C930F007FF2BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CA47AE2156C930F007FF2BF /* Localizable.strings */; };
@@ -126,6 +125,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		25153DB21F0AAD1A00DDE5B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8C083D4812ECDBC600A285FA /* TestPlaceholderExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPlaceholderExpansion.m; sourceTree = "<group>"; };
@@ -153,10 +153,9 @@
 		8C63D2DB12D2E126009196DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		8C63D2E412D2E54C009196DF /* NSString+PrototypeExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PrototypeExpansion.h"; sourceTree = "<group>"; };
 		8C63D2E512D2E54C009196DF /* NSString+PrototypeExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PrototypeExpansion.m"; sourceTree = "<group>"; };
-		8C63D31A12D2F0AA009196DF /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C63D31A12D2F0AA009196DF /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C63D31B12D2F0AA009196DF /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		8C63D32712D2F137009196DF /* TestFieldParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFieldParsing.m; sourceTree = "<group>"; };
-		8C63D32912D2F1E2009196DF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8C6F00110B323DDF00EF8A76 /* active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = active.png; sourceTree = "<group>"; };
 		8C6F00450B323F0000EF8A76 /* NSDictionary+NSArray+PlistMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSArray+PlistMutableCopy.h"; sourceTree = "<group>"; };
 		8C6F00460B323F0000EF8A76 /* NSDictionary+NSArray+PlistMutableCopy.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSArray+PlistMutableCopy.m"; sourceTree = "<group>"; };
@@ -181,7 +180,6 @@
 		8C975B310B30FCA900B481FB /* WebmailerPref.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = WebmailerPref.m; sourceTree = "<group>"; };
 		8C975C950B3110C500B481FB /* NoReturnEditTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoReturnEditTableView.h; sourceTree = "<group>"; };
 		8C975C960B3110C500B481FB /* NoReturnEditTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoReturnEditTableView.m; sourceTree = "<group>"; };
-		8C9E9902110BCE4A00BD7153 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = "../Sparkle 1/dsa_pub.pem"; sourceTree = SOURCE_ROOT; };
 		8CA479A9156C59B7007FF2BF /* URLHandlerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHandlerController.h; sourceTree = "<group>"; };
 		8CA479AA156C59B7007FF2BF /* URLHandlerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHandlerController.m; sourceTree = "<group>"; };
 		8CA47A68156C8ABB007FF2BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -224,7 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C63D32D12D2F1EA009196DF /* SenTestingKit.framework in Frameworks */,
+				25153DB31F0AAD1A00DDE5B3 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +277,7 @@
 				8C6FFB9A0B3220AC00EF8A76 /* Webmailer.prefPane */,
 				8C6FFCD90B32268900EF8A76 /* Webmailer.app */,
 				8C379C990B46F81400F124AB /* Add Webmailer to Mail Handlers.app */,
-				8C63D31A12D2F0AA009196DF /* Tests.octest */,
+				8C63D31A12D2F0AA009196DF /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,7 +318,6 @@
 				8C8C5C1F110A7CA800D57BBE /* download.png */,
 				8CE4E5BE0B33A000000CAE73 /* icon_32.tiff */,
 				8C1C3A47156D4CB4005A334A /* drop.pdf */,
-				8C9E9902110BCE4A00BD7153 /* dsa_pub.pem */,
 				8C3840BD156BE82F00F7B42C /* PrefPane.xib */,
 				8C384190156C059500F7B42C /* AdditionalSettings.xib */,
 				8CA47AE2156C930F007FF2BF /* Localizable.strings */,
@@ -370,7 +367,7 @@
 				8C63D32712D2F137009196DF /* TestFieldParsing.m */,
 				8C083D4812ECDBC600A285FA /* TestPlaceholderExpansion.m */,
 				8C63D31B12D2F0AA009196DF /* Tests-Info.plist */,
-				8C63D32912D2F1E2009196DF /* SenTestingKit.framework */,
+				25153DB21F0AAD1A00DDE5B3 /* XCTest.framework */,
 			);
 			name = Testing;
 			sourceTree = "<group>";
@@ -458,7 +455,6 @@
 				8C63D31512D2F0AA009196DF /* Resources */,
 				8C63D31612D2F0AA009196DF /* Sources */,
 				8C63D31712D2F0AA009196DF /* Frameworks */,
-				8C63D31812D2F0AA009196DF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -466,7 +462,7 @@
 			);
 			name = Tests;
 			productName = Tests;
-			productReference = 8C63D31A12D2F0AA009196DF /* Tests.octest */;
+			productReference = 8C63D31A12D2F0AA009196DF /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8C6FFB990B3220AC00EF8A76 /* Preference Pane */ = {
@@ -512,6 +508,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Webmailer" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -559,7 +557,6 @@
 				8C7858930B326E9E00FB9370 /* default.plist in Resources */,
 				8CE4E5BF0B33A000000CAE73 /* icon_32.tiff in Resources */,
 				8C8C5C20110A7CA800D57BBE /* download.png in Resources */,
-				8C9E9903110BCE4B00BD7153 /* dsa_pub.pem in Resources */,
 				8C3840BF156BE82F00F7B42C /* PrefPane.xib in Resources */,
 				8C384192156C059500F7B42C /* AdditionalSettings.xib in Resources */,
 				8CA47AE3156C930F007FF2BF /* Localizable.strings in Resources */,
@@ -581,19 +578,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8C63D31812D2F0AA009196DF /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
 		8C9E9A42110BE70100BD7153 /* Copy and Symlink Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -803,7 +787,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -817,11 +804,11 @@
 					"-framework",
 					Cocoa,
 					"-framework",
-					SenTestingKit,
+					XCTest,
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
@@ -831,7 +818,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
@@ -843,11 +833,11 @@
 					"-framework",
 					Cocoa,
 					"-framework",
-					SenTestingKit,
+					XCTest,
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -939,27 +929,27 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				"SDKROOT[arch=ppc]" = macosx10.5;
+				SDKROOT = "";
+				"SDKROOT[arch=ppc]" = "";
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PREBINDING = NO;
-				"SDKROOT[arch=ppc]" = macosx10.5;
+				SDKROOT = "";
+				"SDKROOT[arch=ppc]" = "";
 				STRIP_INSTALLED_PRODUCT = YES;
 			};
 			name = Release;

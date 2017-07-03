@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Add Webmailer to Mail Handlers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Build All.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Preference Pane.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Webmailer Daemon.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8C379C980B46F81400F124AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C5E07E80B37C14F00EC858C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C63D31912D2F0AA009196DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C6FFB990B3220AC00EF8A76</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C6FFCD80B32268900EF8A76</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
