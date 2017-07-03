@@ -1,7 +1,5 @@
 #import "UpdateController.h"
 
-#import <DBBackgroundView/DBBackgroundView.h>
-
 #import "SUHost.h"
 #import "SUStatusController.h"
 #import "SUUpdateAlert.h"
@@ -56,9 +54,9 @@ static const CGFloat kUpdateBarHeight = 29;
 	[updateBar setHidden:YES];
 	
 	// Set update bar gradient	
-	NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:0.19 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:0.09 alpha:1.0]];
-	[updateBar setBackgroundGradient:gradient];
-	[gradient release];
+	//NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:0.19 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:0.09 alpha:1.0]];
+	//[updateBar setBackgroundGradient:gradient];
+	//[gradient release];
 	
 	// And check for updates
 	[self setDelegate:self];

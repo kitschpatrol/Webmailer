@@ -1,12 +1,11 @@
 #import <AppKit/AppKit.h>
 #import <Sparkle/Sparkle.h>
 
-@class DBBackgroundView;
 @class SUUpdateAlert;
 
 @interface ComBelkadanWebmailer_UpdateController : SUUpdater {
 	IBOutlet NSImageView *updateIconView;
-	IBOutlet DBBackgroundView *updateBar;
+	IBOutlet NSView *updateBar;
 	IBOutlet NSView *mainView;
 
 	SUAppcastItem *availableUpdate;
